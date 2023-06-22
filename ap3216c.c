@@ -20,7 +20,7 @@
 #include <sys/ioctl.h>
 #include <linux/i2c-dev.h>
 
-#define I2C_BUS "/dev/i2c-1"   // I2C 总线设备节点
+#define I2C_BUS "/dev/i2c-0"   // I2C 总线设备节点
 #define AP3216C_I2C_ADDR 0x1E  // 第一个 AP3216C 设备地址
 
 // 定义 AP3216C 寄存器地址
